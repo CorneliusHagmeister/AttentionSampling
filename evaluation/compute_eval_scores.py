@@ -44,14 +44,14 @@ if __name__ == "__main__":
         "--inception_filename",
         type=str,
         default='inception-v3.npy',
-        help="Name of  inception file",
+        help="Name of  inception file that is used for the  reference dataset",
     )
 
     parser.add_argument(
         "--inception_filename_base",
         type=str,
         default='inception-v3.npy',
-        help="Name of  inception file",
+        help="Name of inception file that is used for the  reference dataset",
     )
 
     parser.add_argument(
